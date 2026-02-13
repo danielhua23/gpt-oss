@@ -6,7 +6,7 @@ from pydantic import BaseModel, ConfigDict
 MODEL_IDENTIFIER = "gpt-oss-120b"
 DEFAULT_TEMPERATURE = 0.0
 REASONING_EFFORT = ReasoningEffort.LOW
-DEFAULT_MAX_OUTPUT_TOKENS = 131072
+DEFAULT_MAX_OUTPUT_TOKENS = 16384
 
 
 class UrlCitation(BaseModel):
