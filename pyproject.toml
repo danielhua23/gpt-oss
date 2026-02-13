@@ -5,8 +5,8 @@ description = "A collection of reference inference implementations for gpt-oss b
 dependencies = [
   "openai-harmony",
   "tiktoken>=0.9.0",
-  "aiohttp>=3.12.14",
-  "chz>=0.3.0",
+  "aiohttp>=3.9.0",
+  #"chz>=0.3.0",
   "docker>=7.1.0",
   "fastapi>=0.116.1",
   "html2text>=2025.4.15",
@@ -20,7 +20,7 @@ dependencies = [
   "jupyter-client>=8.6.3",
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 version = "0.0.9"
 
 [project.optional-dependencies]
