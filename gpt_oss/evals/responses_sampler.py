@@ -26,7 +26,7 @@ class ResponsesSampler(SamplerBase):
         self.model = model
         self.developer_message = developer_message
         self.temperature = temperature
-        self.max_tokens = max_tokens
+        self.max_tokens = 16384
         self.image_format = "url"
         self.reasoning_model = reasoning_model
         self.reasoning_effort = reasoning_effort
